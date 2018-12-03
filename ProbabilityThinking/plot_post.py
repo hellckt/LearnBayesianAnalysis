@@ -2,7 +2,7 @@
 from __future__ import division
 import numpy as np
 import matplotlib.pyplot as plt
-from hpd import hpd_grid
+from ProbabilityThinking.hpd import hpd_grid
 
 
 def plot_post(sample, alpha=0.05, show_mode=True, kde_plot=True, bins=50,

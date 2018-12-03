@@ -4,7 +4,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import scipy.stats as stats
 import seaborn as sns
-from plot_post import plot_post
+from ProbabilityThinking.plot_post import plot_post
 
 
 def naive_hpd(post):

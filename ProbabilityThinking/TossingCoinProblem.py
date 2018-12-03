@@ -30,5 +30,5 @@ for idx, N in enumerate(trials):
     plt.legend(fontsize=5)
     plt.gca().axes.get_yaxis().set_visible(False)
 plt.tight_layout()
-plt.savefig('./images/01_05.png', dpi=300, figsize=(5.5, 5.5))
+plt.savefig('../images/01_05.png', dpi=300, figsize=(5.5, 5.5))
 plt.show()
