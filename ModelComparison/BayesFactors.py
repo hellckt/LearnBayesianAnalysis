@@ -44,6 +44,7 @@ chain_BF_1 = trace_BF_1[500:]
 pm.traceplot(chain_BF_1)
 plt.show()
 
+# the smaller the better
 waic_0 = pm.waic(chain_BF_0, model_BF_0)
 waic_1 = pm.waic(chain_BF_1, model_BF_1)
 
